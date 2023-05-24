@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Yashoja Lakmith</Authors>
+    <Description>Generates a cryptographicaly strong random string with a given length using a given set of characters.</Description>
+  </PropertyGroup>
+
+</Project>
