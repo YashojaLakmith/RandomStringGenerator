@@ -53,7 +53,12 @@ namespace RandomStringGenerator
         {
             if(!disposed)
             {
-                buffer = null;
+                if(buffer != null)
+                {
+                    Array.Clear(buffer, 0, buffer.Length);
+                    buffer = null;
+                }
+
                 disposed = true;
             }
         }
